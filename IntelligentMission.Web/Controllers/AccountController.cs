@@ -16,7 +16,7 @@ namespace IntelligentMission.Web.Controllers
         [HttpGet]
         public IActionResult SignIn()
         {
-        // test update
+        // test update 1
             return Challenge(
                 new AuthenticationProperties { RedirectUri = "/" }, OpenIdConnectDefaults.AuthenticationScheme);
         }

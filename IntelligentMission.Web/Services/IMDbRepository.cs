@@ -189,6 +189,7 @@ namespace IntelligentMission.Web.Services
         {
             try
             {
+                //test Real API uSAGE
                 await this.docClient.ReadDocumentCollectionAsync(UriFactory.CreateDocumentCollectionUri(DocDbNames.DbName, collectionName));
             }
             catch (DocumentClientException e)
